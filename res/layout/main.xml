@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ukeapp57"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ToggleButton
+            android:id="@+id/tbG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="29dp"
+            android:text="@string/gString" 
+            android:textOn="G"
+            android:textOff="G" />
+
+        <ToggleButton
+            android:id="@+id/tbC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tbG"
+            android:text="@string/cString"
+            android:textOn="C"
+            android:textOff="C"  />
+
+        <ToggleButton
+            android:id="@+id/tbE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tbC"
+            android:text="@string/eString" 
+            android:textOn="E"
+            android:textOff="E" />
+
+        <ToggleButton
+            android:id="@+id/tbA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tbE"
+            android:text="@string/aString"
+            android:textOn="A"
+            android:textOff="A" />
+
+        <ToggleButton
+            android:id="@+id/tbAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tbA"
+            android:layout_centerVertical="true"
+            android:text="@string/allString"
+            android:textOn="All"
+            android:textOff="All" />
+
+        <Button
+            android:id="@+id/bStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tbAll"
+            android:layout_below="@+id/tbAll"
+            android:text="@string/stop" />
+
+        <TextView
+            android:id="@+id/tvString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bStop"
+            android:layout_toRightOf="@+id/tbE"
+            android:text="@string/none"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+</LinearLayout>

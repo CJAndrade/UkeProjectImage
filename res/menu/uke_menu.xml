@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ <item
+     android:title="Read about Ukulele"
+     android:id="@+id/UkeWiki"/>  
+      <item
+     android:title="About Uke Tuner"
+     android:id="@+id/UkeAbout"/>   
+
+</menu>

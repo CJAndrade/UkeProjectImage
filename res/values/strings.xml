@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UkeProjectImageActivity!</string>
+    <string name="app_name">Uke  Tuner</string>
+    <string name="about">About Uke Tuner</string>
+    <string name="nice_about">
+<![CDATA[
+<p>Uke Tuner for Android Version <b>1.0(2012)</b></p>
+<p>Please send comments,feature request or report<br>
+bugs by hitting the Send Email button</br></p>
+]]>
+</string>
+    <string name="email">Send E-Mail</string>
+    <string name="aboutApp">About App</string>
+    <string name="gString">G</string>
+    <string name="cString">C</string>
+    <string name="eString">E</string>
+    <string name="aString">A</string>
+    <string name="allString">All</string>
+    <string name="stop">Stop</string>
+    <string name="none">Click a button</string>
+
+</resources>
